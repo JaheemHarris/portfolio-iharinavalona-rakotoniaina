@@ -1,0 +1,418 @@
+body {
+    background-color: #0a1930;
+    color: #fff;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.navbar-brand {
+    color: #bfc8e8;
+    padding-left: 3%;
+    font-size: 1.1em;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-brand span {
+    color: yellow;
+    font-size: 1.7em;
+}
+
+.nav-item a {
+    color: #bfc8e8;
+    font-size: 1.3em;
+    padding-top: 20px;
+}
+
+.nav-item a span {
+    color: yellow;
+    padding-right: 7px;
+}
+
+.nav-item a:hover {
+    color: yellow;
+}
+
+.navbar-nav {
+    padding-left: 20%;
+}
+
+@media only screen and (max-width: 1120px) {
+    .navbar-nav {
+        padding-left: 10%;
+    }
+}
+
+.navbar-nav li {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.download {
+    font-size: 1.1em;
+    font-weight: 600;
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+#intro {
+    padding-left: 15%;
+    padding-top: 10%;
+    min-height: 100vh;
+}
+
+#intro p {
+    font-family: "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+#intro #greeting,
+#intro-name {
+    color: yellow;
+}
+
+#intro-name {
+    text-decoration: underline;
+}
+
+#btn-reach-me {
+    padding-top: 25px;
+}
+
+#intro .contact-btn {
+    font-size: 1.6em;
+}
+
+#intro .contact {
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+#intro .contact a {
+    text-decoration: none;
+    margin-right: 3%;
+    background-color: #bfc8e8;
+    border-radius: 8px 8px 8px 8px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#intro .contact .col {
+    max-width: 80px !important;
+}
+
+@media only screen and (max-width: 520px) {
+    #intro .contact a img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 980px) {
+    #intro .contact a img {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+#intro .contact a:hover {
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 780px) {
+    #intro {
+        padding-left: 10%;
+        padding-top: 50%;
+    }
+    #intro p {
+        font-size: 1.6em;
+        font-weight: 600;
+    }
+    #intro .contact-btn {
+        font-size: 1.1em;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 1120px) {
+    #intro p {
+        font-size: 2.1em;
+        font-weight: 600;
+    }
+    #intro .contact-btn {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 990) {
+    /* #intro {
+        padding-left: 10%;
+        padding-top: 50%;
+    } */
+}
+
+#skills {
+    padding-top: 6%;
+    min-height: 100vh;
+}
+
+.section-title {
+    padding-left: 5%;
+}
+
+.section-title p {
+    color: #bfc8e8;
+    font-size: 2.2em;
+    font-weight: 400;
+}
+
+.section-title p span {
+    color: yellow;
+}
+
+#skills .card {
+    background-color: #0a254d;
+    color: #bfc8e8;
+}
+
+#skills .skill-card {
+    width: 40%;
+}
+
+#skills .card .card-title {
+    color: yellow;
+    font-weight: 800;
+    font-size: 1.4em;
+}
+
+
+/* #skills .skill-image img {
+    height: 305px;
+} */
+
+#skills .card-list-content {
+    list-style: none;
+}
+
+#skills .card-list-content li {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#skills .card-list-content li span {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media only screen and (max-width: 520px) {
+    .section-title p {
+        color: #bfc8e8;
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    #skills .card .card-title {
+        color: yellow;
+        font-weight: 1200;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #skills .skill-image {
+        display: none;
+    }
+    #skills .skill-card {
+        width: 90%;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 920px) {
+    #skills .skill-image {
+        display: none;
+    }
+    .section-title p {
+        font-size: 1.6em;
+    }
+    #skills .skill-card {
+        width: 80%;
+    }
+}
+
+@media (min-width: 920px) and (max-width: 1180px) {
+    #skills .skill-image {
+        display: none;
+    }
+    #skills .skill-card {
+        width: 40%;
+    }
+}
+
+#projects {
+    min-height: 100vh;
+    padding-top: 6%;
+}
+
+#projects .card {
+    background-color: #001d49;
+}
+
+#projects .card-text {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+#projects .card-title {
+    font-size: 0.8em;
+}
+
+#projects .card-text .tech {
+    display: inline-flex;
+    background-color: lightseagreen;
+    color: #dde3f8;
+    font-size: 0.7em;
+    font-weight: 600;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+#projects .card-text .type-section {
+    display: inline-flex;
+    background-color: rgb(168, 72, 233);
+    color: #dde3f8;
+    font-size: 0.7em;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+#projects .card-text .description-section {
+    display: inline-flex;
+    background-color: rgb(89, 165, 252);
+    color: #dde3f8;
+    font-size: 0.7em;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
+}
+
+#projects .card-text .text-section {
+    color: #bfc8e8;
+    font-size: 0.8rem;
+}
+
+#projects .project-title {
+    color: rgb(189, 189, 6);
+    font-weight: 900;
+}
+
+#projects .project-title-plus {
+    color: #dde3f8;
+}
+
+#projects .project-card {
+    width: 30%;
+}
+
+#projects .project-btn {
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 400px) {
+    #projects {
+        min-height: 100vh;
+        padding-top: 40%;
+    }
+    #projects .card-text .type-section {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    #projects .card-text .description-section {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    #projects .card-text .text-section {
+        font-size: 0.9em;
+    }
+    #projects .card-title {
+        font-size: 1em;
+    }
+    #projects .project-card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 520px) {
+    #projects {
+        min-height: 100vh;
+        padding-top: 20%;
+    }
+    #projects .card-text .type-section {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    #projects .card-text .description-section {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    #projects .card-text .text-section {
+        font-size: 0.9em;
+    }
+    #projects .card-title {
+        font-size: 1em;
+    }
+    #projects .project-card {
+        width: 100%;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 780px) {
+    #projects .project-card {
+        width: 80%;
+    }
+}
+
+@media (min-width: 780px) and (max-width: 1120px) {
+    #projects .project-card {
+        width: 40%;
+    }
+}
+
+
+/* @media screen and (max-width: 520px) {
+    #projects .card-text {
+        font-size: 0.8em;
+        font-weight: 400;
+    }
+    #projects .card {
+        width: 100rem;
+    }
+} */
+
+#contact {
+    min-height: 100vh;
+    padding-top: 6%;
+}
+
+#contact .contact-content {
+    padding-left: 7%;
+}
+
+#contact .join-me {
+    font-size: 2em;
+    font-weight: 900;
+    color: yellow;
+}
+
+#contact #email-me {
+    font-size: 2em;
+    font-weight: 900;
+    color: yellow;
+}
